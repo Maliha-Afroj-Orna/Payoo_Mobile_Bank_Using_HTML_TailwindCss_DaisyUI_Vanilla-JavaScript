@@ -9,7 +9,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
   if (inputNumberValue == "01234567890" && inputPinValue == "1234") {
     alert("Login Successful!");
-    window.location.assign("/home.html");
+    window.location.assign("/main.html");
   } else {
     alert("Login Failed. Invalid Mobile Number or Pin!");
     return;
